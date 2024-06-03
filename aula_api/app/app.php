@@ -1,0 +1,3 @@
+<?php
+    //AQUI VAR SER NOSSA APLICAÇÃO
+?>
