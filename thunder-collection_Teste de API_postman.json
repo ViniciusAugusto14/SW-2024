@@ -1,0 +1,83 @@
+{
+    "info": {
+        "_postman_id": "8734f693-68d1-4148-b416-1ffe15e11419",
+        "name": "Teste de API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "Teste de Requisição GET",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost/SW-2024/exercicio/api.php/alunos/",
+                    "path": [
+                        "SW-2024",
+                        "exercicio",
+                        "api.php",
+                        "alunos"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Teste de Requisição POST",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost/SW-2024/exercicio/api.php",
+                    "path": [
+                        "SW-2024",
+                        "exercicio",
+                        "api.php"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Teste de Requisição PUT",
+            "request": {
+                "method": "PUT",
+                "url": {
+                    "raw": "http://localhost/SW-2024/exercicio/api.php",
+                    "path": [
+                        "SW-2024",
+                        "exercicio",
+                        "api.php"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Teste de Requisição DELETE",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost/SW-2024/exercicio/api.php",
+                    "path": [
+                        "SW-2024",
+                        "exercicio",
+                        "api.php"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        }
+    ]
+}
